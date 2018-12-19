@@ -1,0 +1,10 @@
+﻿<linker>
+    <assembly fullname="Unity.Transforms">
+        <type fullname="Unity.Transforms.EndFrameTransformSystem" preserve="all"/>
+    </assembly>
+    <assembly fullname="Unity.Rendering.Hybrid">
+        <type fullname="Unity.Rendering.RenderingSystemBootstrap" preserve="all"/>
+        <type fullname="Unity.Rendering.MeshInstanceRendererSystem" preserve="all"/>
+        <type fullname="Unity.Rendering.LODGroupSystem" preserve="all"/>
+    </assembly>
+</linker>
